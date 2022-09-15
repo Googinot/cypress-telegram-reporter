@@ -62,7 +62,7 @@ Install reporter pre-requisites:
 ##### Finally let's install the plugin 
 Add this line to your plugins file:
 ```js
-const telegramReport = require('cypress-telegram-reporter');
+const telegramReporter = require('cypress-telegram-reporter');
 ```
 And apply the report to the current config:
 ```js
